@@ -10,6 +10,9 @@ https://github.com/iceland2k14/secp256k1
 
 ##### puzzle67.py
 random scan
-
 #### puzzle67-step.py
 random scan with random step
+
+-------
+##### Donations
+- BTC: 12TQn8yjBCEoUiUFSsXxaZKVg2ToSWVtQZ
