@@ -1,5 +1,5 @@
-# btc-puzzle-67
-cracking tool for btc puzzle 67<br>
+# btc-puzzle-68
+cracking tool for btc puzzle 68<br>
 https://privatekeys.pw/puzzles/bitcoin-puzzle-tx<br>
 https://privatekeyfinder.io/bitcoin-puzzle<br>
 
@@ -8,9 +8,9 @@ https://privatekeyfinder.io/bitcoin-puzzle<br>
 use Python Library from Secp256k1<br>
 https://github.com/iceland2k14/secp256k1
 
-##### puzzle67.py
+##### puzzle68.py
 random scan
-#### puzzle67-step.py
+#### puzzle68-step.py
 random scan with random step
 
 -------
