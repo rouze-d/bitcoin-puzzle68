@@ -9,7 +9,7 @@ count=0
 total=0
 
 while True:
-    for num in range(147573952589676412928, 295147905179352825855, random.randrange(40000000000000, 80000000000000)):
+    for num in range(295147905179352825856, 590295810358705651711, random.randrange(2040000000000000, 2080000000000000)):
     #num = 
         compress_address = ice.privatekey_to_address( 0, True, num)
         magic = hex(num)[2:].zfill(64)
@@ -18,7 +18,7 @@ while True:
         total+=1
         print(total, magic, compress_address, end='\r')
 
-        if compress_address == "1MVDYgVaSN6iKKEsbzRUAYFrYJadLYZvvZ" :
+        if compress_address == "19vkiEajfhuZ8bs8Zu2jgmC6oqZbWqhxhG" :
 
         
             print('\nPrivate HEX     : ', magic)
