@@ -7,7 +7,7 @@ https://privatekeyfinder.io/bitcoin-puzzle<br>
 
 #### How to compile (Linux example):
 ```
-gcc -O3 -o puzzle71 puzzle71.c -lssl -lcrypto -lpthread
+gcc -O3 -march=native -funroll-loops -pthread puzzle71.c -o puzzle71 -lssl -lcrypto
 ```
 #### example output
 ```
@@ -15,10 +15,10 @@ gcc -O3 -o puzzle71 puzzle71.c -lssl -lcrypto -lpthread
 * 71-Bit Bitcoin Puzzle Solver
 * Range: 0x400000000000000000 to 0x7FFFFFFFFFFFFFFFFF
 * Decimal: 1180591620717411303424 to 2361183241434822606847
-* Target Wallet: 1PWo3JeB9jrGwfHDNpdGK54CRas7fsVzXU
-* Attempts: 18532977
-* Current Key: 0x751a6a594a045b79dd
-* Speed: 3.88 Mkeys/sec | Threads: 8
+* Target Wallet (RMD160): f6f5431d25bbf7b12e8add9af5e3475c44a0a5b8
+* Attempts: 2600324
+* Current Key: 0x7a0ccfd877ddd3f4e2 | Current RMD160: fe12dfb3269ce5aca610981071b51b0ad4603b44
+* Speed: 3.24 Mkeys/sec | Threads: 8
 ```
 #### I don't know this will work or not
 -------
